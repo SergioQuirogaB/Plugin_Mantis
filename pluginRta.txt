@@ -1,0 +1,10 @@
+1. Crea una carpeta con el nombre del plugin (por ejemplo, 'AutoResponder') en la carpeta 'plugins' de tu instalación de Mantis.
+2. Guarda este código en un archivo llamado 'AutoResponderPlugin.php' dentro de la carpeta del plugin.
+3. Crea una subcarpeta llamada 'data' dentro de la carpeta del plugin.
+4. Asegúrate de que existe un usuario llamado 'soporte_koncilia' en tu sistema Mantis.
+5. Activa el plugin desde el panel de administración de Mantis.
+
+El plugin funcionará de la siguiente manera:
+- Cuando cualquier usuario cree un ticket en la categoría "Error", se programará una respuesta automática.
+- Después de una hora, el sistema enviará automáticamente la respuesta como si fuera enviada por el usuario 'soporte_koncilia'.
+- Las respuestas pendientes se verificarán cada vez que se cargue una página de Mantis.
